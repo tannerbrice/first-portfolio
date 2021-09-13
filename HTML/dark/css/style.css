@@ -624,6 +624,7 @@ button:focus {
 ===========================*/
 
 .form-kerri .form-control {
+    color: #fff;
     box-shadow: none !important;
     height: 50px;
     margin-bottom: 14px;
@@ -747,6 +748,15 @@ button:focus {
     }
     .clip-home{
         clip-path: none;
+    }
+    #youtube {
+        height: 25vh; 
+    }
+}
+
+@media (min-width: 769px) {
+    #youtube {
+        height: 30vh;
     }
 }
 
