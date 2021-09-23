@@ -321,7 +321,7 @@ button:focus {
 =============================*/
 
 .header-bg-img {
-    background-image: url(../images/bg-6.png);
+    background-image: url(../images/background.png);
     position: relative;
     background-size: cover;
     background-position: center center;
@@ -377,6 +377,14 @@ button:focus {
     height: 10px;
     width: 3px;
     background: #fff;
+}
+
+.swordsman {
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    left: 46.5%;
+    top: 13%;
 }
 
 /*HOME 4*/
@@ -770,6 +778,10 @@ button:focus {
     .container {
         max-width: 1140px !important;
     }
+}
+
+.relative-hi {
+    position: relative;
 }
 
 @media (min-width:382px) and (max-width: 538px) {
