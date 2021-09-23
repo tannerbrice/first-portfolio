@@ -383,8 +383,9 @@ button:focus {
     position: absolute;
     z-index: 1;
     width: 150px;
-    left: 46.5%;
-    top: 13%;
+    bottom: -20px;
+    left: 45%;
+
 }
 
 /*HOME 4*/
@@ -780,7 +781,7 @@ button:focus {
     }
 }
 
-.relative-hi {
+.relative {
     position: relative;
 }
 
@@ -798,10 +799,25 @@ button:focus {
     }
 }
 
+@media (min-width:451px) and (max-width: 767px) {
+    .swordsman {
+        left: 42%;
+    }
+}
+
+@media (min-width:382px) and (max-width: 450px) {
+    .swordsman {
+        left: 40%;
+    }
+}
+
 @media (max-width: 381px) {
     .first-title {
         margin-top: 5.5rem;
         margin-bottom: 1.2rem;
+    }
+    .swordsman {
+        left: 40%;
     }
 }
 
@@ -809,5 +825,14 @@ button:focus {
     .first-title {
         margin-bottom: 1.5rem;
         margin-top: 0rem;
+    }
+}
+
+@media (max-height: 699px) {
+    .swordsman {
+        width: auto;
+        height: 29vh;
+        bottom: -10px;
+        left: 41%;
     }
 }
