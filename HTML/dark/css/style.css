@@ -824,7 +824,7 @@ button:focus {
     }
 }
 
-@media (max-height: 699px) {
+@media (max-height: 699px) and (max-width: 415px) {
     .swordsman {
         width: auto;
         height: 29vh;
