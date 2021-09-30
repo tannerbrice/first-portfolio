@@ -385,7 +385,6 @@ button:focus {
     width: 150px;
     bottom: -20px;
     left: 45%;
-
 }
 
 /*HOME 4*/
@@ -820,7 +819,7 @@ button:focus {
 
 @media (min-width: 1300px){
     .first-title {
-        margin-bottom: 1.5rem;
+        margin-bottom: .5rem;
         margin-top: 0rem;
     }
 }
